@@ -26,7 +26,7 @@ class Person1:
         self.age = age
 
     def speak(self):
-        print("hi hi..")
+        print(f"hi hi.. I am {self.name} and I am {self.age} years old.")
 
 
 person2 = Person1("John", 23)  # passing the values to the __init__() method
