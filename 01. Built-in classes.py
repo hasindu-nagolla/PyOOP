@@ -1,4 +1,8 @@
-# 1st of all we need to know what is class? and what is object?, class is a blueprint/template for creating objects, and object is an instance of a class.
+# 1st of all we need to know what is class? and what is object?
+
+#   -> class is a blueprint/template for creating objects.
+#   -> object is an instance of a class.
+
 
 # there are the built-in classes in python, such as int, float, str, list, tuple, dict etc.
 
