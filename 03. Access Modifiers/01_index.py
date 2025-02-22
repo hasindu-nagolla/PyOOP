@@ -9,18 +9,20 @@
 # 01. Make data as private and use getters and setters
 # ==================================================================
 
+# Traditional Getter Method
+
 class Student:
     def __init__(self, studentName, school, email):
         self.studentName = studentName
         self.school = school
         self._email = email
-        
+
     def getEmail(self):
         return self._email.lower()
 
     def setEmail(self, newEmail):
         self._email = newEmail.lower()
-        
+
 
 student1 = Student("Hasindu", "St' Thomas College", "Hasindu@gmail.com")
 print(student1.getEmail())
