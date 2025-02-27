@@ -18,10 +18,10 @@
 
 class User:
 
-    userCount = 0  # Static Attribute
+    userCount = 0  # This is a static attribute
 
     def __init__(self, name, email):
-        self.name = name
+        self.name = name # This is an instance attribute
         self.email = email  # Increment the userCount by 1, when a new object is created.
         User.userCount += 1
 
