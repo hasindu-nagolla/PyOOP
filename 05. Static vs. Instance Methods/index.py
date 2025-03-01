@@ -14,6 +14,8 @@
 # Can access and modify class and instance
 
 
+# ============================= Example  =======================================
+
 class BankAcc:
     
     MIN_BALANCE = 1000
