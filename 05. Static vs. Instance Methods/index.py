@@ -5,6 +5,14 @@
 #  Belong to the class itself, but dont access instance(self) or class(cls) attributes
 # Defined using @staticmethod decorator
 
+# ==============================================================================
+# Instance Methods
+# ==============================================================================
+
+# Belong to the instance of the class
+# Take self as the first parameter, for representing the instance
+# Can access and modify class and instance
+
 
 class BankAcc:
     
