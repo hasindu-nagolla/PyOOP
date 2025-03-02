@@ -1,19 +1,19 @@
 # Encapsulation is the practice of restricting direct access to some of an object's components. Its mean hide internal data from the outside.
 
-class NotSecureBandAccount:
+class NotSecureBankAccount:
     def __init__ (self, balance):
         self. balance = balance
 
-notSecureBankAccount = NotSecureBandAccount(0.0)
+notSecureBankAccount = NotSecureBankAccount(0.0)
 notSecureBankAccount.balance = -10
 print(notSecureBankAccount.balance)
 
 
 # ==============================================================================
-# Create a SecureBandAccount class using encapsulation in OOP
+# Create a SecureBankAccount class using encapsulation in OOP
 # ==============================================================================
 
-class SecureBandAccount:
+class SecureBankAccount:
       
     def __init__ (self):
         self. _balance = 0.0
@@ -37,7 +37,7 @@ class SecureBandAccount:
         print(f'Withdrew {amount}. New balance: {self._balance}')
 
 
-secureBankAccount = SecureBandAccount()
+secureBankAccount = SecureBankAccount()
 print(secureBankAccount.balance)
 
 # secureBankAccount.balance = -10 # This will not work because balance is a read-only property
